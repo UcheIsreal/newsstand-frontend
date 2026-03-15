@@ -1,4 +1,4 @@
-import Link from "next/link";
+"use client";
 
 interface Article {
   id: string;
@@ -73,7 +73,7 @@ export default function NewsCard({ article }: { article: Article }) {
         )}
 
         {/* Read more */}
-        <a
+        
           href={article.url}
           target="_blank"
           rel="noopener noreferrer"
