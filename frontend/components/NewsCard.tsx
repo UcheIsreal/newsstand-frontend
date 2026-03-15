@@ -26,18 +26,19 @@ export default function NewsCard({ article }: { article: Article }) {
   return (
     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow">
       {article.image_url && (
-        <img
-          src={article.image_url}
-          alt={article.title}
-          className="w-full h-48 object-cover"
-          onError={(e) => (e.currentTarget.style.display = "none")}
-        />
+        <div className="w-full h-48 bg-gray-100 overflow-hidden">
+          <img
+            src={article.image_url}
+            alt=""
+            className="w-full h-full object-cover"
+          />
+        </div>
       )}
       <div className="p-4">
         <div className="flex items-center gap-2 mb-2">
           <img
             src={`https://www.google.com/s2/favicons?domain=${article.source_logo}&sz=16`}
-            alt={article.source_name}
+            alt=""
             className="w-4 h-4"
           />
           <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
