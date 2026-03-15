@@ -34,7 +34,6 @@ export default function NewsCard({ article }: { article: Article }) {
         />
       )}
       <div className="p-4">
-        {/* Source + time */}
         <div className="flex items-center gap-2 mb-2">
           <img
             src={`https://www.google.com/s2/favicons?domain=${article.source_logo}&sz=16`}
@@ -48,17 +47,14 @@ export default function NewsCard({ article }: { article: Article }) {
           <span className="text-xs text-gray-400">{timeAgo(article.published_at)}</span>
         </div>
 
-        {/* Title */}
         <h3 className="font-bold text-gray-900 leading-snug mb-2 line-clamp-2">
           {article.title}
         </h3>
 
-        {/* Excerpt */}
         {article.excerpt && (
           <p className="text-sm text-gray-600 line-clamp-3 mb-3">{article.excerpt}</p>
         )}
 
-        {/* Tags */}
         {article.tags?.length > 0 && (
           <div className="flex flex-wrap gap-1 mb-3">
             {article.tags.slice(0, 3).map((tag) => (
@@ -72,7 +68,6 @@ export default function NewsCard({ article }: { article: Article }) {
           </div>
         )}
 
-        {/* Read more */}
         
           href={article.url}
           target="_blank"
