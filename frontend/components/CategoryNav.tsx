@@ -3,15 +3,15 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const CATEGORIES = [
-  { slug: "", label: "🏠 Top Stories" },
-  { slug: "finance", label: "💰 Finance" },
-  { slug: "politics", label: "🏛️ Politics" },
-  { slug: "sports", label: "⚽ Sports" },
-  { slug: "business", label: "📈 Business" },
-  { slug: "technology", label: "💻 Technology" },
-  { slug: "entertainment", label: "🎬 Entertainment" },
-  { slug: "health", label: "🏥 Health" },
-  { slug: "world", label: "🌍 World" },
+  { slug: "", label: "Top Stories" },
+  { slug: "finance", label: "Finance" },
+  { slug: "politics", label: "Politics" },
+  { slug: "sports", label: "Sports" },
+  { slug: "business", label: "Business" },
+  { slug: "technology", label: "Technology" },
+  { slug: "entertainment", label: "Entertainment" },
+  { slug: "health", label: "Health" },
+  { slug: "world", label: "World" },
 ];
 
 export default function CategoryNav() {
