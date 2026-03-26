@@ -1,14 +1,14 @@
 import NewsCard from "@/components/NewsCard";
 
 const CATEGORY_LABELS: Record<string, string> = {
-  finance: "💰 Finance",
-  politics: "🏛️ Politics",
-  sports: "⚽ Sports",
-  business: "📈 Business",
-  technology: "💻 Technology",
-  entertainment: "🎬 Entertainment",
-  health: "🏥 Health",
-  world: "🌍 World",
+  finance: "Finance",
+  politics: "Politics",
+  sports: "Sports",
+  business: "Business",
+  technology: "Technology",
+  entertainment: "Entertainment",
+  health: "Health",
+  world: "World",
 };
 
 export default function CategoryPage({ params }: { params: { category: string } }) {
