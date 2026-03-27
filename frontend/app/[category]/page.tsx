@@ -8,6 +8,10 @@ const CATEGORY_LABELS: Record<string, string> = {
   technology: "Technology",
   entertainment: "Entertainment",
   health: "Health",
+  us: "USA",
+  uk: "UK",
+  nigeria: "Nigeria",
+  india: "India",
   world: "World",
 };
 
