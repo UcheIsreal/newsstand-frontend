@@ -11,6 +11,7 @@ const CATEGORIES = [
   { slug: "technology", label: "Technology" },
   { slug: "entertainment", label: "Entertainment" },
   { slug: "health", label: "Health" },
+  { slug: "nigeria", label: "🇳🇬 Nigeria" },
   { slug: "world", label: "World" },
 ];
 
