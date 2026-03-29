@@ -22,11 +22,11 @@ const TikTokIcon = () => React.createElement("svg", { viewBox: "0 0 24 24", fill
 );
 
 const SOCIALS = [
-  { label: "WhatsApp",   href: "https://wa.me/2348XXXXXXXXX",          icon: WhatsAppIcon,  color: "#25D366" },
-  { label: "Email",      href: "mailto:your@email.com",                 icon: EmailIcon,     color: "#EA4335" },
-  { label: "Twitter / X",href: "https://twitter.com/yourhandle",        icon: TwitterIcon,   color: "#1DA1F2" },
-  { label: "LinkedIn",   href: "https://linkedin.com/in/yourprofile",   icon: LinkedInIcon,  color: "#0A66C2" },
-  { label: "TikTok",     href: "https://tiktok.com/@yourhandle",        icon: TikTokIcon,    color: "#010101" },
+  { label: "WhatsApp",   href: "https://wa.me/2348164277071",          icon: WhatsAppIcon,  color: "#25D366" },
+  { label: "Email",      href: "mailto:uchejacob99@gmail.com",                 icon: EmailIcon,     color: "#EA4335" },
+  { label: "Twitter / X",href: "https://twitter.com/VidsGoHard",        icon: TwitterIcon,   color: "#1DA1F2" },
+  { label: "LinkedIn",   href: "https://linkedin.com/in/uche-ogbonna-ab5b41a4/",   icon: LinkedInIcon,  color: "#0A66C2" },
+  { label: "TikTok",     href: "https://tiktok.com/@ninojakesully",        icon: TikTokIcon,    color: "#010101" },
 ];
 
 const CATEGORIES = [
