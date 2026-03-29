@@ -6,7 +6,10 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Newsstand — All the News in One Place",
-  description: "Your digital newsstand. Finance, politics, sports, business, tech and more.",
+  description: "Your digital newsstand. US News, Nigerian News, Indian News, UK News, Finance, politics, sports, business, tech and more.",
+  icons: {
+    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
