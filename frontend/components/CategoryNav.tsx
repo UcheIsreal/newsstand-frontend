@@ -4,10 +4,10 @@ import { usePathname } from "next/navigation";
 
 const CATEGORIES = [
   { slug: "", label: "Top Stories" },
+  { slug: "usa", label: "USA" },
+  { slug: "uk", label: "UK" },
   { slug: "nigeria", label: "Nigeria" },
   { slug: "india", label: "India" },
-  { slug: "uk", label: "UK" },
-  { slug: "usa", label: "USA" },
   { slug: "finance", label: "Finance" },
   { slug: "politics", label: "Politics" },
   { slug: "sports", label: "Sports" },
